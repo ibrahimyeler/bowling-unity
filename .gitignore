@@ -23,7 +23,7 @@
 *.VC.db
 *.DS_Store
 
-# Unity - Ayarlar ve Paket Bilgisi (bu klasörler **takibe alınmalı**)
+# Unity - Ayarlar ve Paket Bilgisi (bu klasörler **takibe alınmalı**) slm
 !Assets/
 !ProjectSettings/
 !Packages/
