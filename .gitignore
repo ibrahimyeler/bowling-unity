@@ -1,0 +1,25 @@
+# Unity klasörleri
+[Libraries]
+[Libraries]/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.svd
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Mac ve VSCode
+.DS_Store
+.vscode/
+
