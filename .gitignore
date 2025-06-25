@@ -1,26 +1,36 @@
-# Unity klasörleri
-[Libraries]
-[Libraries]/
-Library/
-Temp/
-Obj/
+# Unity - Ana Sistem Klasörleri
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 
-Build/
-Builds/
-Logs/
-MemoryCaptures/
+# Unity - Otomatik Üretilen Dosyalar
 *.csproj
-*.sln
-*.user
 *.unityproj
-*.pidb
+*.sln
 *.suo
-*.svd
+*.tmp
+*.user
 *.userprefs
-*.userosscache
-*.sln.docstates
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.DS_Store
 
-# Mac ve VSCode
-.DS_Store
+# Unity - Ayarlar ve Paket Bilgisi (bu klasörler **takibe alınmalı**)
+!Assets/
+!ProjectSettings/
+!Packages/
+!UserSettings/  # bazı özel durumlarda gerekebilir
+
+# Visual Studio Code
 .vscode/
 
+# Mac OS
+.DS_Store
